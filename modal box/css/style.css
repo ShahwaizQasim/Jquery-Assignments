@@ -1,0 +1,66 @@
+@charset "utf-8";
+/* CSS Document */
+.nav-link{
+    font-family: 'Poppins';
+	font-weight: 700;
+	transition:0.5s !important;
+}
+.nav-link:hover{
+	color:#E1B813 !important;
+	}
+
+#nav2{
+	transition: 1s;
+	}
+
+.navbar-brand{
+color: #FFCD00 !important;
+}
+
+
+.hdg{
+	height:500px;
+	background-image:url(../img/amazon.jpg);
+	background-size:cover;
+	}
+.distance{
+	height:170px;
+	width:95%;
+	overflow:hidden;
+	box-shadow:5px 5px 10px #666;
+	border-radius:20px;
+	margin-bottom:50px;
+	transition:1s;
+	}
+.distanceA{
+	height:170px;
+	width:95%;
+	overflow:hidden;
+	box-shadow:5px 5px 10px #666;
+	border-radius:20px;
+	margin-bottom:50px;
+	transition:1s;
+	}
+.distanceB{
+	height:170px;
+	width:95%;
+	overflow:hidden;
+	box-shadow:5px 5px 10px #666;
+	border-radius:20px;
+	margin-bottom:50px;
+	transition:1s;
+	}
+.distanceC{
+	height:170px;
+	width:95%;
+	overflow:hidden;
+	box-shadow:5px 5px 10px #666;
+	border-radius:20px;
+	margin-bottom:50px;
+	transition:1s;
+	}
+.hdg1{
+	height:500px;
+	background-image:url(../img/caup.jpg);
+	background-size:cover;
+	}

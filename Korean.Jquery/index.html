@@ -1,0 +1,26 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Korean.Jquery</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/jquery-3.6.3.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $("#hidebtn").click(function () {
+          $("#hdg").hide(500);
+        });
+        $("#showbtn").click(function () {
+          $("#hdg").show(500);
+        });
+      });
+    </script>
+  </head>
+  <body>
+
+    <h1 class="text-success" id="hdg">KOREAN COMPUTER ACADEMY</h1>
+    <button class="btn btn-outline-info" id="hidebtn">Hide</button>
+    <button class="btn btn-outline-info" id="showbtn">Show</button>
+	
+  </body>
+</html>

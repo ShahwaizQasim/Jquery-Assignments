@@ -1,0 +1,123 @@
+<html>
+<head>
+<meta charset="utf-8">
+<title>Scroll.Jquery</title>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/style.css">
+<script src="js/jquery-3.6.3.min.js"></script>
+
+<script>
+
+$(document).ready(function() {
+    $(window).scroll(function(){
+		if(
+		
+		$(window).scrollTop () > 280){
+		   $(".distance").css("transform","scale(1.1)")	
+			}
+			else
+			  $(".distance").css("transform","scale(0)")
+		});
+		
+		      $(window).scroll(function(){
+			      if(
+				    $(window).scrollTop () > 450 ){
+						$(".distanceA").css("transform","scale(1.1)")
+					}
+					else
+					    $(".distanceA").css("transform","scale(0)")
+				  });
+				  
+				   $(window).scroll(function(){
+                     if(
+					   $(window).scrollTop () > 600 ){
+						   $(".distanceB").css("transform","scale(1.1)")
+					   }
+					   else
+					     $(".distanceB").css("transform","scale(0)")
+                });
+				
+				$(window).scroll(function(){
+                     if(
+					   $(window).scrollTop () > 800 ){
+						   $(".distanceC").css("transform","scale(1.1)")
+					   }
+					   else
+					     $(".distanceC").css("transform","scale(0)")
+                });
+});
+
+</script>
+
+</head>
+
+
+<body>
+<div class="container-fluid hdg"></div>
+   <div class="container">
+      <div class="row">
+          <div class="col-lg-4">
+            <div class="distance">
+              <img src="img/Sans_titre_-_2022-11-02T125552.255.jpg" height="100%" width="100%">
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="distance">
+              <img src="img/01e4a287a1e278d6adcefb035ce80b09.jpg" height="100%" width="100%">
+            </div>
+          </div>
+          <div class="col-lg-4">
+             <div class="distance">
+              <img src="img/yr7m-listing.jpg" height="100%" width="100%">
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="distanceA">
+              <img src="img/bbaz-listing.jpg" height="100%" width="100%">
+            </div>
+          </div> 
+          <div class="col-lg-4">
+            <div class="distanceA">
+              <img src="img/fast-food.jpg" height="100%" width="100%">
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="distanceA">
+              <img src="img/7346df89a4223245f82a9376c9be63ab.jpg" height="100%" width="100%">
+            </div>
+          </div>
+          <div class="col-lg-4">
+             <div class="distanceB">
+              <img src="img/fast-food.webp" height="100%" width="100%">
+            </div>
+          </div>
+          <div class="col-lg-4">
+             <div class="distanceB">
+              <img src="img/images.jpeg" height="100%" width="100%">
+            </div>
+          </div>
+          <div class="col-lg-4">
+              <div class="distanceB">
+              <img src="img/flatten.jpeg" height="100%" width="100%">
+            </div>
+          </div> 
+          <div class="col-lg-4">
+             <div class="distanceC">
+              <img src="img/Masala-Dosa.webp" height="100%" width="100%">
+            </div>
+          </div>
+          <div class="col-lg-4">
+             <div class="distanceC">
+              <img src="img/l-intro-1651501665.jpg" height="100%" width="100%">
+            </div>
+          </div> 
+          <div class="col-lg-4">
+             <div class="distanceC">
+              <img src="img/attachment-RS15105_5231629051.jpg" height="100%" width="100%">
+            </div>
+          </div>
+      </div>
+   </div>
+   <div class="container-fluid hdg1"></div>
+</body>
+</html>

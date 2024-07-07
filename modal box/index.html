@@ -1,0 +1,228 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Navbar-scroll.Jquery</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <script>
+      // $(document).ready(function(){
+
+      //   $(window).scroll(function(){
+      //        if(
+      //            $(window).scrollTop () > 20){
+      //                $("#nav2").css({"background-color":"black"});
+      //                   $(".nav-link").css({"color" : "white"})
+      //             }
+
+      //             else{
+      //                $("#nav2").css({"background-color":"white"});
+      //                   $(".nav-link").css({"color" : "Black"})
+      //             }
+      //    });
+
+      // });
+
+      $(document).ready(function () {
+        $(window).scroll(function () {
+          if ($(window).scrollTop() > 20) {
+            $("#nav2").css({ "background-color": "black" });
+            $(".nav-link").css({ color: "white" });
+          } else {
+            $("#nav2").css({ "background-color": "white" });
+            $(".nav-link").css({ color: "black" });
+          }
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <div
+      class="container-fluid fw-bold"
+      style="
+        border-top: 6px solid #ffcd00;
+        position: sticky;
+        top: 0;
+        z-index: 12;
+      "
+      id="nav2"
+    >
+      <div class="container">
+        <nav class="nav navbar navbar-expand-lg text-center pb-3 pt-3">
+          <a href="" class="navbar-brand fw-bold" style="font-size: 26px"
+            >ARCHITECT</a
+          >
+          <button
+            class="navbar-toggler"
+            data-bs-toggle="collapse"
+            data-bs-target="#navi"
+          >
+            <i class="navbar-toggler-icon"></i>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navi">
+            <ul class="navbar-nav justify-content-center text-dark">
+              <li class="nav-item">
+                <a href="index.html" class="nav-link fw-bold">Home</a>
+              </li>
+              &nbsp;&nbsp;&nbsp;&nbsp;
+              <li class="nav-item">
+                <a href="projects.html" class="nav-link fw-bold">Projects</a>
+              </li>
+              &nbsp;&nbsp;&nbsp;&nbsp;
+              <li class="nav-item">
+                <a href="services.html" class="nav-link fw-bold">Service</a>
+              </li>
+              &nbsp;&nbsp;&nbsp;&nbsp;
+              <li class="nav-item">
+                <a href="about.html" class="nav-link fw-bold">About</a>
+              </li>
+              &nbsp;&nbsp;&nbsp;&nbsp;
+              <li class="nav-item">
+                <a href="contact.html" class="nav-link fw-bold">Contact</a>
+              </li>
+              &nbsp;&nbsp;&nbsp;&nbsp;
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+
+    <div class="container-fluid hdg"></div>
+
+    <!-- Button trigger modal -->
+    <button
+      type="button"
+      class="btn btn-primary"
+      data-bs-toggle="modal"
+      data-bs-target="#exampleModal"
+    >
+      Launch demo modal
+    </button>
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">...</div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="distance">
+            <img
+              src="img/Sans_titre_-_2022-11-02T125552.255.jpg"
+              height="100%"
+              width="100%"
+            />
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="distance">
+            <img
+              src="img/01e4a287a1e278d6adcefb035ce80b09.jpg"
+              height="100%"
+              width="100%"
+            />
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="distance">
+            <img src="img/yr7m-listing.jpg" height="100%" width="100%" />
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="distanceA">
+            <img src="img/bbaz-listing.jpg" height="100%" width="100%" />
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="distanceA">
+            <img src="img/fast-food.jpg" height="100%" width="100%" />
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="distanceA">
+            <img
+              src="img/7346df89a4223245f82a9376c9be63ab.jpg"
+              height="100%"
+              width="100%"
+            />
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="distanceB">
+            <img src="img/fast-food.webp" height="100%" width="100%" />
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="distanceB">
+            <img src="img/images.jpeg" height="100%" width="100%" />
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="distanceB">
+            <img src="img/flatten.jpeg" height="100%" width="100%" />
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="distanceC">
+            <img src="img/Masala-Dosa.webp" height="100%" width="100%" />
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="distanceC">
+            <img src="img/l-intro-1651501665.jpg" height="100%" width="100%" />
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="distanceC">
+            <img
+              src="img/attachment-RS15105_5231629051.jpg"
+              height="100%"
+              width="100%"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
